@@ -1,0 +1,32 @@
+{
+  "name": "bimacoding/pdox",
+  "type": "library",
+  "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.",
+  "keywords": [
+    "php",
+    "pdo",
+    "sql",
+    "query",
+    "builder"
+  ],
+  "homepage": "https://github.com/bimacoding/PDOx",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arif Iik Haerudin S.Kom",
+      "email": "info@vitech.asia",
+      "homepage": "http://vitech.asia"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Buki\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
